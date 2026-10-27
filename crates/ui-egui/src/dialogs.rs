@@ -1361,7 +1361,7 @@ fn dialogs(app: &mut PdfCraftApp, ctx: &egui::Context) {
                         );
                         ui.add_space(12.0);
                         ui.horizontal(|ui| {
-                            widgets::brand_logo(ui, 22.0);
+                            widgets::brand_logo(ui, 32.0);
                         });
                         ui.add_space(6.0);
                         if let Some(cmd) = widgets::community_links(ui) {

@@ -20,7 +20,7 @@ permissions:
 
 concurrency:
   group: hawkeye-windows-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   windows-x64:

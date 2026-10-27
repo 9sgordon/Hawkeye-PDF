@@ -563,7 +563,8 @@ pub fn brand_logo(ui: &mut egui::Ui, height: f32) -> Response {
     } else {
         ("bytes://hawkeye-wordmark.svg", include_bytes!("../../../assets/brand/hawkeye-wordmark.svg"))
     };
-    ui.add(egui::Image::from_bytes(uri, bytes).max_height(height).alt_text("Hawkeye"))
+    // The wordmark's viewBox is 556.5 × 224.5.
+    ui.add(egui::Image::from_bytes(uri, bytes).fit_to_exact_size(vec2(height * 2.48, height)).alt_text("Hawkeye"))
 }
 
 /// The Hawkeye PDF app icon (works on light and dark), `size` points square.
