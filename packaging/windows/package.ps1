@@ -115,10 +115,31 @@ Copy-Item (Join-Path $Root 'assets\app-icon\LICENSE-document.txt') $Stage
 # the MSI and the portable zip take the whole folder, so new models ship without naming them here.
 $Models = Join-Path $Stage 'models'
 New-Item -ItemType Directory -Force -Path $Models | Out-Null
+# Hawkeye PDF: the models are best-effort. If their host refuses the download, try the plain S3
+# endpoint, and failing that build without them (Scan & OCR then says the models are missing)
+# instead of failing the whole build. $HasModels tells the MSI self-test what to expect.
+$HasModels = $true
 Push-Location $Root
-try { Invoke-Native 'cargo xtask models' { cargo xtask models $Models } } finally { Pop-Location }
+try {
+  cargo xtask models $Models
+  if ($LASTEXITCODE -ne 0) {
+    Write-Output '::warning::OCR model download failed; retrying from ocrs-models.s3.amazonaws.com'
+    $attr = Join-Path $Root 'ATTRIBUTION.toml'
+    (Get-Content -Raw $attr).Replace('ocrs-models.s3-accelerate.amazonaws.com', 'ocrs-models.s3.amazonaws.com') | Set-Content -NoNewline $attr
+    cargo xtask models $Models
+    git -C $Root checkout -- ATTRIBUTION.toml
+  }
+  if ($LASTEXITCODE -ne 0) {
+    Write-Output '::warning::OCR models unavailable; building Hawkeye PDF without Scan & OCR'
+    $HasModels = $false
+    Remove-Item -Recurse -Force $Models -ErrorAction SilentlyContinue
+    New-Item -ItemType Directory -Force -Path $Models | Out-Null
+    Set-Content (Join-Path $Models 'README.txt') 'The text-recognition (OCR) models were not available when this build was made.'
+    $global:LASTEXITCODE = 0
+  }
+} finally { Pop-Location }
 Remove-Item -Force (Join-Path $Models '*.part') -ErrorAction SilentlyContinue
-if (-not (Test-Path (Join-Path $Models 'ATTRIBUTION.txt')) -or -not (Get-ChildItem (Join-Path $Models '*.LICENCE.txt'))) {
+if ($HasModels -and (-not (Test-Path (Join-Path $Models 'ATTRIBUTION.txt')) -or -not (Get-ChildItem (Join-Path $Models '*.LICENCE.txt')))) {
   throw "no OCR models in $Models after cargo xtask models"
 }
 
@@ -152,7 +173,7 @@ Invoke-Native 'wix build' {
 # its Windows Installer database handle is gone before signtool opens the MSI.
 Invoke-Native 'test-msi' {
   & (Get-Process -Id $PID).Path -NoProfile -File (Join-Path $PSScriptRoot 'test-msi.ps1') $Msi `
-    -CraftFontLicences $HasCraftFontLicences -ExpectedFontNoticesDirectory $Docs
+    -CraftFontLicences $HasCraftFontLicences -ExpectedFontNoticesDirectory $Docs -ExpectModels ([int]$HasModels)
 }
 # wix writes its debug symbols (.wixpdb) next to the MSI; keep them out of the release assets.
 Remove-Item -Force -ErrorAction SilentlyContinue ([IO.Path]::ChangeExtension($Msi, '.wixpdb'))

@@ -9,7 +9,9 @@ param(
   # 1 when package.ps1 staged craft-fonts OFL notices, 0 when the binaries embed no craft-fonts.
   # -1 (the default) skips the check when the MSI is inspected by hand.
   [int] $CraftFontLicences = -1,
-  [string] $ExpectedFontNoticesDirectory
+  [string] $ExpectedFontNoticesDirectory,
+  # Hawkeye PDF: 0 when the build had no OCR models to ship.
+  [int] $ExpectModels = 1
 )
 $ErrorActionPreference = 'Stop'
 $Installer = New-Object -ComObject WindowsInstaller.Installer
@@ -294,7 +296,7 @@ try {
   [void] $view.Execute()
   while ($record = $view.Fetch()) { if ($record.StringData(1) -match '\.rten$') { $modelFiles++ } }
 } finally { [void] $view.Close() }
-if ($modelFiles -lt 2) { throw "expected the OCR models (*.rten) in models\, found $modelFiles" }
+if ($ExpectModels -ne 0 -and $modelFiles -lt 2) { throw "expected the OCR models (*.rten) in models\, found $modelFiles" }
 $rm = Read-Row 'SELECT `Dialog` FROM `Dialog` WHERE `Dialog` = ''MsiRMFilesInUse''' 1
 Assert-Equal $rm[0] 'MsiRMFilesInUse' 'Files-in-use dialog'
 [void] [Runtime.InteropServices.Marshal]::FinalReleaseComObject($Database)
