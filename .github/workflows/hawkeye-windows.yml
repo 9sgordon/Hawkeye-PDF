@@ -1,8 +1,8 @@
 name: Build Hawkeye PDF for Windows
 
 # Builds the Windows installer (.msi) and portable zip, and publishes them as a GitHub release
-# that coworkers can download. Run it from the Actions tab ("Run workflow"), or push a tag
-# starting with "v" to the hawkeye branch.
+# that coworkers can download. Runs on every push to the hawkeye branch (except README/docs-only
+# changes), on a tag starting with "v", or from the Actions tab ("Run workflow").
 on:
   workflow_dispatch:
     inputs:
@@ -11,7 +11,9 @@ on:
         type: boolean
         default: true
   push:
+    branches: [hawkeye]
     tags: ["v*"]
+    paths-ignore: ["README.md", "docs/**"]
 
 permissions:
   contents: write
