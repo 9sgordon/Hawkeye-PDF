@@ -122,14 +122,16 @@ $HasModels = $true
 Push-Location $Root
 try {
   cargo xtask models $Models
-  if ($LASTEXITCODE -ne 0) {
+  $modelsExit = $LASTEXITCODE
+  if ($modelsExit -ne 0) {
     Write-Output '::warning::OCR model download failed; retrying from ocrs-models.s3.amazonaws.com'
     $attr = Join-Path $Root 'ATTRIBUTION.toml'
     (Get-Content -Raw $attr).Replace('ocrs-models.s3-accelerate.amazonaws.com', 'ocrs-models.s3.amazonaws.com') | Set-Content -NoNewline $attr
     cargo xtask models $Models
+    $modelsExit = $LASTEXITCODE
     git -C $Root checkout -- ATTRIBUTION.toml
   }
-  if ($LASTEXITCODE -ne 0) {
+  if ($modelsExit -ne 0) {
     Write-Output '::warning::OCR models unavailable; building Hawkeye PDF without Scan & OCR'
     $HasModels = $false
     Remove-Item -Recurse -Force $Models -ErrorAction SilentlyContinue
