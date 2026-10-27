@@ -28,14 +28,14 @@ jobs:
     timeout-minutes: 120
     env:
       DIST: ${{ github.workspace }}\dist\release
-      CARGO_TERM_COLOR: always
+      CARGO_TERM_COLOR: never
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Rust
-        uses: dtolnay/rust-toolchain@1.95
-        with:
-          targets: x86_64-pc-windows-msvc
+      - name: Install Rust 1.95
+        shell: pwsh
+        run: |
+          pwsh .github/hawkeye/run.ps1 'Install Rust' 'rustup toolchain install 1.95 --profile minimal --target x86_64-pc-windows-msvc; rustup default 1.95; rustc --version; cargo --version'
 
       - name: Cache Rust build
         uses: Swatinem/rust-cache@v2
@@ -45,12 +45,12 @@ jobs:
       - name: Install WiX 5
         shell: pwsh
         run: |
-          dotnet tool install --global wix --version 5.0.2
+          pwsh .github/hawkeye/run.ps1 'Install WiX' 'dotnet tool install --global wix --version 5.0.2'
           "$env:USERPROFILE\.dotnet\tools" | Out-File -FilePath $env:GITHUB_PATH -Append -Encoding utf8
 
       - name: Build installer and portable zip
         shell: pwsh
-        run: pwsh packaging/windows/package.ps1 -Arch x64
+        run: pwsh .github/hawkeye/run.ps1 'Build' 'pwsh packaging/windows/package.ps1 -Arch x64'
 
       - name: Read version
         id: ver
