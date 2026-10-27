@@ -7,8 +7,10 @@ use egui::{Align, Layout};
 
 use crate::{PdfCraftApp, theme, widgets};
 
-/// Where every PdfCraft release is listed.
-pub const RELEASES_PAGE: &str = "https://github.com/storytold/pdfcraft/releases";
+/// Where every Hawkeye PDF release is listed. Hawkeye PDF never downloads or installs updates
+/// itself (the built-in updater would fetch upstream PdfCraft releases): Help ▸ Check for
+/// updates opens this page instead.
+pub const RELEASES_PAGE: &str = "https://github.com/9sgordon/Hawkeye-PDF/releases";
 
 /// Stands in for the network in tests.
 #[cfg(not(target_arch = "wasm32"))]
@@ -55,15 +57,7 @@ impl PdfCraftApp {
 
     /// Help ▸ Check for updates: ask for the latest release and show the outcome.
     pub fn check_for_updates(&mut self) {
-        #[cfg(not(target_arch = "wasm32"))]
-        {
-            self.updates.open = true;
-            self.updates.check_requested = true;
-        }
-        #[cfg(target_arch = "wasm32")]
-        {
-            self.open_url(RELEASES_PAGE);
-        }
+        self.open_url(RELEASES_PAGE);
     }
 
     /// Starts the checks and picks up their answers (each frame).
@@ -128,7 +122,7 @@ pub(crate) fn dialog(app: &mut PdfCraftApp, ctx: &egui::Context) {
                 });
             }
             Status::UpToDate => {
-                ui.label(crate::i18n::fmt(tl!("PdfCraft {c} is up to date."), &[("c", current)]));
+                ui.label(crate::i18n::fmt(tl!("Hawkeye PDF {c} is up to date."), &[("c", current)]));
             }
             Status::Failed(e) => {
                 ui.label(crate::i18n::fmt(tl!("Couldn't check for updates: {e}"), &[("e", e)]));

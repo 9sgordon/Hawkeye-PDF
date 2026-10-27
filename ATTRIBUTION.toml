@@ -2447,7 +2447,7 @@ source = "https://design.ubuntu.com/font"
 licence = "Ubuntu-font-1.0"
 kind = "font"
 usage = "egui fallback fonts (eframe feature default_fonts)"
-sha256 = "80307b8da7649aa4ee4d484b232140e3ce1ec0ca093073d3c53c8f5a5ced7a70"
+sha256 = "f225e0b044875b8fa6375b6b5ad935f0d99fcc1ad03ecf9f0baae2cedbfca4d2"
 
 [[bundled]]
 crate = "epaint_default_fonts"
@@ -2459,7 +2459,7 @@ source = "https://github.com/source-foundry/Hack"
 licence = "MIT AND Bitstream-Vera"
 kind = "font"
 usage = "egui fallback fonts (eframe feature default_fonts)"
-sha256 = "15f55cc0c85a2988d2b4b3a8cdb5d77fdfbaf319e1bb5309d725db9818fb7125"
+sha256 = "f225e0b044875b8fa6375b6b5ad935f0d99fcc1ad03ecf9f0baae2cedbfca4d2"
 
 [[bundled]]
 crate = "epaint_default_fonts"
@@ -2471,7 +2471,7 @@ source = "https://github.com/googlefonts/noto-emoji"
 licence = "OFL-1.1"
 kind = "font"
 usage = "egui monochrome fallback font (egui feature monochrome_emoji_fonts)"
-sha256 = "415dc6290378574135b64c808dc640c1df7531973290c4970c51fdeb849cb0c5"
+sha256 = "f225e0b044875b8fa6375b6b5ad935f0d99fcc1ad03ecf9f0baae2cedbfca4d2"
 
 [[bundled]]
 crate = "epaint_default_fonts"
@@ -2483,7 +2483,7 @@ source = "https://github.com/jslegers/emoji-icon-font"
 licence = "MIT"
 kind = "font"
 usage = "egui monochrome fallback font (egui feature monochrome_emoji_fonts)"
-sha256 = "f426bec371f484646d002717e2c555a95cd5145e635d83a48bbef83f3abf18ca"
+sha256 = "f225e0b044875b8fa6375b6b5ad935f0d99fcc1ad03ecf9f0baae2cedbfca4d2"
 
 [[bundled]]
 crate = "epaint_default_fonts"
@@ -2495,7 +2495,7 @@ source = "https://github.com/jslegers/emoji-icon-font"
 licence = "MIT"
 kind = "font"
 usage = "Small special-icon subset embedded by egui default_fonts; retained in FontDefinitions::default(). Provenance: https://github.com/storytold/egui/blob/6d518fc799681571963842f95b55a6b68431b15a/crates/epaint_default_fonts/fonts/egui-icons.txt; complete MIT copyright and permission text in NOTICE."
-sha256 = "122806555c73df7cef55aa1d945289ae27fbc4dbbd31abbb4204ee0cda829cc8"
+sha256 = "f225e0b044875b8fa6375b6b5ad935f0d99fcc1ad03ecf9f0baae2cedbfca4d2"
 
 [[asset]]
 path = "vendor/hayro-cmap/assets/cmaps.brotli"
@@ -2520,7 +2520,7 @@ licence = "MIT OR Apache-2.0"
 kind = "data"
 adobe_data = true
 usage = "Glyph widths and encodings for non-embedded standard fonts. Non-visual data, allowed by AGENTS.md §1.1"
-sha256 = "2ec9e608573eda459de1e1d9bda3bb494315e36bee885acc88912a11fe0caa41"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "PlayfairDisplay[wght].ttf"
@@ -2533,7 +2533,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "c40f2293766a503bc70cce9e512ef844a4ccb7cbcde792fe2ea31d191917d8d6"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "PlayfairDisplay-Italic[wght].ttf"
@@ -2546,7 +2546,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "566be814f8e96e93dfa16101331557eb6b5467e9e03f627c0910fe93ca12300e"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "a5e26dc5e2e77fb2803a0bf02fd4f81ee136ec8dea863ccdb0c59a263b21378b"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "EBGaramond[wght].ttf"
@@ -2559,7 +2559,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "ef9512f92f6d579e5dc75af59a5a4b1b8b47d2eda89e00b954d44520e5369027"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "EBGaramond-Italic[wght].ttf"
@@ -2572,7 +2572,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "bba2c4499c93c9612b90b9825d32b07da52fce2fe57562a1eb6b833553f93c4e"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "GreatVibes-Regular.ttf"
@@ -2585,7 +2585,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "61093a21f5e63dedf54222b3c09997e54c0fe43e3851d21386e02ddcbc246d49"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "8d509802186f1b51572531ecf313e8098f9a5bfdfaca93f0c9b34467f9982d15"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "STIXTwoMath-Regular.ttf"
@@ -2598,7 +2598,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "0c8825913b60d858aacdb33c4ca6660a7d64b0d6464702efbb19313f5765861a"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "562551b15b836e6e01d1b7350909baf3c8c8d83260c1190fbf4544333e6936de"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "Amiri-Regular.ttf"
@@ -2611,7 +2611,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "72de68e5954f4fdd24702292ef5a32f003ca960ec9330dc86e5eefb5dffb9b22"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "ab391c4147d054c48976e98322ad0eefe1427aa0e0502a12a4c75d80a70cfcd7"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoSansHebrew[wdth,wght].ttf"
@@ -2624,7 +2624,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "9b9fe028b5ba74d231659a1bbaf0ed09b11e759d1ca6a070999e16d151616b47"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "7ef36a2c3593758cdb622e1bdef4f84523e92fbc3ccc667438dd80ff54c2de88"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoSansDevanagari[wdth,wght].ttf"
@@ -2637,7 +2637,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "a216f6f8d85c7228093e0ee5e258d9d377e6671f68acb4db1930b29583d0f331"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "14ec4af41f27482216d1c2229f417ff9b1425e1babb014e57d1d40d03229853e"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoSansThai[wdth,wght].ttf"
@@ -2650,7 +2650,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoSansArmenian[wdth,wght].ttf"
@@ -2663,7 +2663,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "0468358b316f69f405b55cadf8a8314e16e3610b8feaad96772bd5d968112d02"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "0870908d8318435a5daf1cd280ae15063f990cd9ad60f3e94c734ce9e1ffef71"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoSansGeorgian[wdth,wght].ttf"
@@ -2676,7 +2676,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "8c02263c5d73d40544f9ed91e30c4e947407057a3cc430d7b786189aeceff6df"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "dc591156f36842d38996c4a7a17fee9bb58e45da3e2cac7a31b7d33de700adb9"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoSansTamil[wdth,wght].ttf"
@@ -2689,7 +2689,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "f8ff8ce7d0a81bf8d5e121c635ef027250c531f2fd37d5988b8dd6e45f19d7f1"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "aa3a9b321f4b0bb2c40203ffbde9af89713227866e0e13f76e5b9eeea727cf88"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "CharisSIL-Regular.ttf"
@@ -2702,7 +2702,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "0acda775b4dedaf980821f590206a692779ee495170018ee2b9caf1c50fc136a"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "346337374aa347d64ee015b26d441f1970d8631914e2f3941b00e1c4761e28c5"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "ZCOOLXiaoWei-Regular.ttf"
@@ -2715,7 +2715,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "a094514ca57cf8f9c5e8d8d1adab5d8cd3a377297ff016f9df2c05b3ecd77f0a"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "a42b620140f493db42f741351dfbf343c0936d58588ee8004b8b2a218d997ff1"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "ShipporiMincho-Regular.ttf"
@@ -2728,7 +2728,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "41fba056279be5f45ff9a99e44b7b53897b42732f5806d8e666e0ab49ac6bd38"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "769b5269f0f9bc6534b352c0e6bd856a566e03ff788f107191c2d835863570b2"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "GowunBatang-Regular.ttf"
@@ -2741,7 +2741,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "49a57cc769fa9affd6eefb9070a61e3d3f6b757c97cafb15848bc6d1c81acc78"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "466c593e7147412e748af4856d5ad14709b5a860bdf62b9c2546f2c5874e9849"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "NotoColorEmoji-Regular.ttf"
@@ -2754,7 +2754,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "ac564676d10054a8445923dfc2dfb13c042d97888bd27c1b6ec6dfe89a9d8d62"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "4d82a18d8d95f60ba883ce242bbadbf84a576e987745dd7ba38d71c67cff2d73"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "Inter[opsz,wght].ttf"
@@ -2767,7 +2767,7 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[fetched]]
 file = "Inter-Italic[opsz,wght].ttf"
@@ -2780,150 +2780,62 @@ licence_url = "https://raw.githubusercontent.com/google/fonts/9710da1eacb3be2725
 licence_sha256 = "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
 kind = "font"
 usage = "Showcase PDF (cargo xtask demo-pdf)"
-sha256 = "acd98e64795781b2058f07b18475e0ecee2a0fe2b42a49e2f9e37d0d6bf66ce6"
-
-[[asset]]
-path = "docs/brand/artcraft-logo-white.png"
-title = "ArtCraft brand: artcraft-logo-white"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "8b86aeb06a12a90ba77a60e0d90329272310e244ee5c1f9b161b391280ca79d8"
-
-[[asset]]
-path = "docs/brand/artcraft-logo-white.svg"
-title = "ArtCraft brand: artcraft-logo-white"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "a3e03dc49f9ad4225b8517d5424309c8d1c864d3996d862190d9cc797d5af427"
-
-[[asset]]
-path = "docs/brand/artcraft-logo.png"
-title = "ArtCraft brand: artcraft-logo"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "08fc6d9d3717e8f13417bac6f9025b50e11d1e0b32e9e000883d2fe0c4a0c67b"
-
-[[asset]]
-path = "docs/brand/artcraft-logo.svg"
-title = "ArtCraft brand: artcraft-logo"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "3188971e1affdf4f6be4fa65f715376a7a305e6aa741ec78b0296c8f934eff08"
-
-[[asset]]
-path = "docs/brand/artcraft-mark-black.png"
-title = "ArtCraft brand: artcraft-mark-black"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "5954cc0306e1b9d7beb47097e2e842157113a39d9aba078b57304902687936a9"
-
-[[asset]]
-path = "docs/brand/artcraft-mark-black.svg"
-title = "ArtCraft brand: artcraft-mark-black"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "570adcb4f7ba8ca0647f97074476bab81d3272988f1cdee52efa21bf026036a4"
-
-[[asset]]
-path = "docs/brand/artcraft-mark.png"
-title = "ArtCraft brand: artcraft-mark"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "9d372157a949c147318561e629b11561c28b7cbc14c84b516a3fe6e84d8fbbad"
-
-[[asset]]
-path = "docs/brand/artcraft-mark.svg"
-title = "ArtCraft brand: artcraft-mark"
-author = "ArtCraft Team"
-source = "ArtCraft Team brand assets (provided by the project owner, 2026-10-01; identical copies in storytold/photocraft)"
-licence = "LicenseRef-Storyteller-Trademark"
-licence_file = "docs/brand/LICENSE-brand.txt"
-kind = "logo"
-usage = "ArtCraft branding next to the community links (About dialog, Help menu, home screen) and in docs. ArtCraft Team trademark, not open source; may be used only unmodified within PdfCraft; forks and modified versions must remove it."
-sha256 = "f87af81b6fa411da8820eed2bfdcc54c0ee9cd453b4e868c64f56c69db142d0e"
+sha256 = "ddf37af521d904d5646c2fc37b2b7e912dc1b56f0d210190b61f598154758e46"
 
 [[asset]]
 path = "assets/app-icon/pdfcraft.svg"
-title = "PdfCraft app icon (master vector)"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon (master vector)"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Master artwork; every other app-icon file is rendered from it (packaging/icons.sh)"
-sha256 = "52b384a10a2a7fdd3145d9822972cfd568ef0cb7312549bd4399addd89d45a6d"
+sha256 = "ce8ca1e5608de1d237094a523aaaf50fb4f983b7a86a08c9797d875bb4d1ccdf"
 
 [[asset]]
 path = "assets/app-icon/pdfcraft-small.svg"
-title = "PdfCraft app icon (light vector)"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon (light vector)"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "README header and assets/app-icon/README.md"
-sha256 = "b036304c11ef5dcad36636d06ca0bf331b51e47650d25d3c916a0e1eabf544c7"
+sha256 = "a61a7b70fb8fef2d74bbdc1b5fc2160f880bd7bb86f5397eab16079f663a4e5f"
 
 [[asset]]
 path = "assets/app-icon/pdfcraft-1024.png"
-title = "PdfCraft app icon, 1024 px on Apple's icon grid"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 1024 px on Apple's icon grid"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Runtime window/Dock icon on macOS (apps/pdfcraft/src/main.rs)"
-sha256 = "da577d3f21fbcf5c739067787a9e683be2b064d76813b5d5fec9074a7a106538"
+sha256 = "752762c8fc875dd0a066504677cfd7097365dbb59960401e54dadef02dbcd8da"
 
 [[asset]]
 path = "assets/app-icon/pdfcraft.icns"
-title = "PdfCraft app icon (macOS .icns)"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon (macOS .icns)"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "macOS app bundle icon"
-sha256 = "2425148222873de241d267aba667a8b234ecdd0149f2ca8bb6e79443b743b1e8"
+sha256 = "c8e3f4bb723f868c95528591164f98aa519d8df3d9f43627ef1e6b5f97612428"
 
 [[asset]]
 path = "assets/app-icon/pdfcraft.ico"
-title = "PdfCraft app icon (Windows .ico, 16-256 px)"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon (Windows .ico, 16-256 px)"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Embedded in pdfcraft.exe by apps/pdfcraft/build.rs (Explorer, taskbar, Start menu, Alt-Tab)"
-sha256 = "56daaaae9ae5389794909570885809adf5e1d9183bef2d9669ed2f9bba3ed6f5"
+sha256 = "1fc1458eec4390e61e93731c5730fe014d41b7f723db223522bd6f0651c23825"
 
 [[asset]]
 path = "assets/app-icon/pdfcraft-document.svg"
@@ -2949,245 +2861,102 @@ sha256 = "ba3f9128b368fc6d17d376cf62dbdbc22455451c5c8c4779210d7a2a7409b9e6"
 
 [[asset]]
 path = "assets/app-icon/hicolor/16x16/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 16 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 16 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "9b77095cbe75dcba6b74a1fdcd4064812850efaf7a12edebefc9ded5eabb49da"
+sha256 = "8bfaac951018afb590f23d6581e5e5c10db4d5b879d33f9c60c719bdc4cc3812"
 
 [[asset]]
 path = "assets/app-icon/hicolor/24x24/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 24 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 24 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "a4cd466687f6c5cb59eef3fc564bdba1c8f0d9e324754eeebab82f18823efae7"
+sha256 = "53434766f9be038d17b704127e94f29b51e2382eb87d9928ef49ec83b30aa3f9"
 
 [[asset]]
 path = "assets/app-icon/hicolor/32x32/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 32 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 32 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "e22279013a5ed5c02571e1e4e9bc4cef9aa0847fcb733a285b2916fabd16bf78"
+sha256 = "21b7d83492470777c654d82d3aef9feacc197758af5616132b79856c49ac0c61"
 
 [[asset]]
 path = "assets/app-icon/hicolor/48x48/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 48 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 48 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "55daf2d5575f6c4e4c4975c9f1c74231178f1801963a8b19f68dfa9bc50cb22f"
+sha256 = "77d91b66664943aa26e4e71e1dbf2f22ee9fcf2eccfccd7fae676d3f84fa31e7"
 
 [[asset]]
 path = "assets/app-icon/hicolor/64x64/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 64 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 64 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "2975c200f341e247b5fa18f568fb27d390e3fa01e9b2ad37acb48d0e1cc8a124"
+sha256 = "de906b45f76058b415efb14591a31622ba2bc19471ee1cf9b23c64fd23050fe6"
 
 [[asset]]
 path = "assets/app-icon/hicolor/128x128/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 128 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 128 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "6ef927ca252b40bc9b5d8843d84137334362f8aa1acbb1bf8c15a02affd25b2b"
+sha256 = "1b257d69056e694218fe94a6c54c74cc7105b0a53a41a99731284ef5c849b66d"
 
 [[asset]]
 path = "assets/app-icon/hicolor/256x256/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 256 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 256 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop); runtime window icon on Windows and Linux (apps/pdfcraft/src/main.rs)"
-sha256 = "cde7ee8c5ee38f9fc40a429fd9e6d99a035bcd321701fce331bb13bac126614d"
+sha256 = "a41d3c9ca927d7c63ba10779c9245230eb032f375ff9e444731551fbf32727a4"
 
 [[asset]]
 path = "assets/app-icon/hicolor/512x512/apps/ai.storyteller.pdfcraft.png"
-title = "PdfCraft app icon, 512 px"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon, 512 px"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "5ede733e93b96f4eb8d94299232cf2f9605fa19b0d913f95fe9828c316a2d066"
+sha256 = "d880921e18283fedd003cabfda154fb38dc42dbc7588fcc16d1e62bd25867c65"
 
 [[asset]]
 path = "assets/app-icon/hicolor/scalable/apps/ai.storyteller.pdfcraft.svg"
-title = "PdfCraft app icon (Linux scalable)"
-author = "PdfCraft contributors (drawn by the project owner in ArtCraft; vectorised with craftrules vectorize_tile.py)"
-source = "Contributor-original (see assets/app-icon/README.md)"
-licence = "MIT OR Apache-2.0"
-licence_file = "assets/app-icon/LICENSE.txt"
+title = "Hawkeye PDF app icon (Linux scalable)"
+author = "Shane Gordon (Hawkeye logo; traced to vector for Hawkeye PDF)"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
 kind = "icon"
 usage = "Linux hicolor theme icon (packaging/linux/ai.storyteller.pdfcraft.desktop)"
-sha256 = "52b384a10a2a7fdd3145d9822972cfd568ef0cb7312549bd4399addd89d45a6d"
-
-[[asset]]
-path = "docs/images/pdfcraft-bookmarks.png"
-title = "PdfCraft screenshot: Bookmarks"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: navigation. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "6daf2dceda8737da0c5f9e7895e5c4cc24cc845938ffca478713c2230573240d"
-
-[[asset]]
-path = "docs/images/pdfcraft-dark.png"
-title = "PdfCraft screenshot: Dark theme"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: themes. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "18fbd4931b2a8d01a88aef0d5d0837e3cdc12aa35f8529bedbb4a930565d47e5"
-
-[[asset]]
-path = "docs/images/pdfcraft-find.png"
-title = "PdfCraft screenshot: Find text"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: search. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "b52771502be4c03e2dabf107c77d5183fad7f39655146d59761dda855c2d4b52"
-
-[[asset]]
-path = "docs/images/pdfcraft-forms.png"
-title = "PdfCraft screenshot: Interactive form"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: forms. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "f8eb7705056d32e9c8e4d3b8b197c3e500faae08672e4622d6327d2799b536e7"
-
-[[asset]]
-path = "docs/images/pdfcraft-layers.png"
-title = "PdfCraft screenshot: Layers"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: layers. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "20ff9e1c6ecc74d000a7514b82fe9e39f82c8ef5e7c1a52e9060c5ca349020d6"
-
-[[asset]]
-path = "docs/images/pdfcraft-organize.png"
-title = "PdfCraft screenshot: Organize pages"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: organize. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "0a309ba73bcfccbe0106824b55fc347cc0b32293d1db68149d5eccec9c087ba1"
-
-[[asset]]
-path = "docs/images/pdfcraft-palette.png"
-title = "PdfCraft screenshot: Command palette"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: tools. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "74867793e506c03255459e838eef0b08e485c13b7ea8a6b8de3ec16870067eda"
-
-[[asset]]
-path = "docs/images/pdfcraft-properties.png"
-title = "PdfCraft screenshot: Document properties"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: metadata. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "86f293543b299fa1665db999a68978138f8d61a4082d7c5b5025498e188da459"
-
-[[asset]]
-path = "docs/images/pdfcraft-scripts.png"
-title = "PdfCraft screenshot: Scripts of the world"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: rendering. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "0dde8ed5a14dee7396379963adff517bd249c7dd0fe494c389b612e643584b15"
-
-[[asset]]
-path = "docs/images/pdfcraft-split.png"
-title = "PdfCraft screenshot: Split dialog"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: split. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "bf31e13b563ead564af968c5fae8d1c07b91ee38867d0cf1aae9e0582efc2fe5"
-
-[[asset]]
-path = "docs/images/pdfcraft-tools.png"
-title = "PdfCraft screenshot: All tools"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: tool catalogue. Shows PdfCraft UI, Lucide icons, the showcase PDF built from the [[fetched]] OFL fonts, and the ArtCraft mark (Storyteller trademark from docs/brand/, not covered by this licence)"
-sha256 = "61731a921902e285d40826d401f1ef25624dabb8c8ac1f8f0c09c1292a17ee1a"
-
-[[asset]]
-path = "docs/images/pdfcraft-twoup.png"
-title = "PdfCraft screenshot: Two-up reading"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README: layouts. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "a72ed1b84c827e3aa1dd3282d857b4742f02d8ff23fc39b62115c840ebad14b4"
-
-[[asset]]
-path = "docs/images/pdfcraft-viewer.png"
-title = "PdfCraft screenshot: Viewer with comments"
-author = "PdfCraft contributors (generated by `cargo xtask screenshots`)"
-source = "this repository"
-licence = "MIT OR Apache-2.0"
-licence_file = "LICENSE-MIT"
-kind = "image"
-usage = "README hero. Shows only PdfCraft UI, Lucide icons and the showcase PDF built from the [[fetched]] OFL fonts"
-sha256 = "ecd261028d8837f7f7c013dd796d81ca7e89643bcfcbad3ab9fbfbe87ded04e3"
+sha256 = "ce8ca1e5608de1d237094a523aaaf50fb4f983b7a86a08c9797d875bb4d1ccdf"
 
 [[asset]]
 path = "assets/icons/pin.svg"
@@ -3366,7 +3135,7 @@ licence_url = "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
 licence_sha256 = "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
 kind = "model"
 usage = "Scan & OCR: finds words on page images (cargo xtask models)"
-sha256 = "f15cfb56bd02c4bf478a20343986504a1f01e1665c2b3a0ad66340f054b1b5ca"
+sha256 = "f46881724a6621f3686a612a79dbdce4f7dbe9e2025610e44c9a094341334c2c"
 
 [[fetched]]
 file = "text-recognition.rten"
@@ -3379,7 +3148,7 @@ licence_url = "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
 licence_sha256 = "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
 kind = "model"
 usage = "Scan & OCR: reads the words it finds (cargo xtask models)"
-sha256 = "e484866d4cce403175bd8d00b128feb08ab42e208de30e42cd9889d8f1735a6e"
+sha256 = "f46881724a6621f3686a612a79dbdce4f7dbe9e2025610e44c9a094341334c2c"
 
 [[build_input]]
 name = "craft-fonts"
@@ -3529,3 +3298,25 @@ licence = "MIT OR Apache-2.0"
 licence_file = "LICENSE-MIT"
 kind = "translation"
 usage = "Catalan UI strings, compiled in by crates/ui-egui/src/i18n.rs"
+
+[[asset]]
+path = "assets/brand/hawkeye-wordmark.svg"
+title = "Hawkeye wordmark"
+author = "Shane Gordon"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
+kind = "logo"
+usage = "Home screen and About dialog (light theme)"
+sha256 = "8d634b5e6619ee15c6fb6121c0bdca7df3a338e7550ea5ac3540332ab7b74a84"
+
+[[asset]]
+path = "assets/brand/hawkeye-wordmark-white.svg"
+title = "Hawkeye wordmark (dark theme)"
+author = "Shane Gordon"
+source = "Contributor-original: Shane Gordon's Hawkeye logo (see assets/brand/LICENSE-brand.txt)"
+licence = "LicenseRef-Hawkeye-Brand"
+licence_file = "assets/brand/LICENSE-brand.txt"
+kind = "logo"
+usage = "Home screen and About dialog (dark theme)"
+sha256 = "caf84280d7faeb6f94d489e25950a16d42541a61ed93968d9464d4c2bb613258"

@@ -1,0 +1,14 @@
+Hawkeye name, logo and app icon
+
+The Hawkeye name, the Hawkeye wordmark (assets/brand/) and the Hawkeye PDF app icon
+(assets/app-icon/, except pdfcraft-document.*) are the property of Shane Gordon.
+All rights reserved. They are not covered by the MIT or Apache-2.0 licences that
+apply to the source code of this repository.
+
+You may build and distribute unmodified Hawkeye PDF releases made from this
+repository. Anyone else who forks or modifies this repository must replace these
+files with their own artwork and name.
+
+Hawkeye PDF is based on PdfCraft by the ArtCraft Team and the PdfCraft contributors
+(https://github.com/storytold/pdfcraft), used under the MIT OR Apache-2.0 licence.
+Hawkeye PDF is not made, endorsed or supported by the ArtCraft Team.

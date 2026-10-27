@@ -1,12 +1,14 @@
-PdfCraft app icon (pdfcraft.svg, pdfcraft-small.svg and every file derived from them in this
-directory: pdfcraft-1024.png, pdfcraft.icns, pdfcraft.ico, hicolor/).
+Hawkeye name, logo and app icon
 
-Original artwork made for this project by the project owner, drawn in ArtCraft and vectorised for
-PdfCraft (no third-party material). Licensed like the rest of PdfCraft, under either of
+The Hawkeye name, the Hawkeye wordmark (assets/brand/) and the Hawkeye PDF app icon
+(assets/app-icon/, except pdfcraft-document.*) are the property of Shane Gordon.
+All rights reserved. They are not covered by the MIT or Apache-2.0 licences that
+apply to the source code of this repository.
 
-  * Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
-  * MIT license (https://opensource.org/licenses/MIT)
+You may build and distribute unmodified Hawkeye PDF releases made from this
+repository. Anyone else who forks or modifies this repository must replace these
+files with their own artwork and name.
 
-at your option.
-
-Regenerate the derived files with packaging/icons.sh.
+Hawkeye PDF is based on PdfCraft by the ArtCraft Team and the PdfCraft contributors
+(https://github.com/storytold/pdfcraft), used under the MIT OR Apache-2.0 licence.
+Hawkeye PDF is not made, endorsed or supported by the ArtCraft Team.
